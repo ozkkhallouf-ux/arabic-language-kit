@@ -1,0 +1,29 @@
+{
+  "name": "arabic-language-kit",
+  "version": "1.0.0",
+  "description": "مكتبة شاملة لدعم اللغة العربية في التطبيقات الويب مع دعم RTL والترجمة التلقائية",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "arabic",
+    "rtl",
+    "i18n",
+    "localization",
+    "translation",
+    "language-switcher"
+  ],
+  "author": "ozkkhallouf-ux",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0"
+  }
+}
